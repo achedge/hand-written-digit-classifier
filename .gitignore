@@ -1,1 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data and models (these can get huge!)
+*.pkl
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
 data/
+datasets/
+models/
+weights/
+
+# fastai specific
+models/*.pth
+models/*.pkl
+
+# Training artifacts
+runs/
+logs/
+outputs/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.envrc
+
+# Generated files
+*.png
+*.jpg
+*.jpeg
